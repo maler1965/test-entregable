@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './componets/Footer';
 import QuoteBox from './componets/QuoteBox';
 import dbQuotes from "./db/quote.json";
 import { getRandom } from './util/random'; //para utilizar el archivo random.js
@@ -24,13 +25,11 @@ function App() {
 
       <section className='app__container' >
 
-        <h1>The Universe</h1>
+        <h1 className='app__h1' >The Universe</h1>
 
         <QuoteBox handleChangeQuote={handleChangeQuote} phrase={quote.phrase} />  {/* todo el codigo que estaba aqui lo pasamos a un componente react aparte, y le pasamos los datos que necesitara en el nuevo archivo, por medio de un props, phrase obtiene el dato y en el otro archivo lo coge con ese dato*/}
 
-        <footer>
-          <h3> Author: {quote.author} </h3>
-        </footer>
+        <Footer author={quote.author} />
 
       </section>
 

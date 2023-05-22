@@ -5,12 +5,41 @@ p {
     padding: 10px;
 }
 
+@keyframes glowing-animation {
+    0% {
+        box-shadow: 0px 0px 20px 4px rgba(223, 196, 156, 0.7);
+    }
+
+    50% {
+        box-shadow: 0px 0px 40px 10px rgba(115, 255, 0, 0.7);
+    }
+
+    100% {
+        box-shadow: 0px 0px 20px 4px rgba(71, 105, 156, 0.7);
+    }
+}
+
 .quoteBox__btn {
     display: block;
     /*con esto surgen un margen grande pues ocupa toda la pagina, el bloque, y se puede dividir ese espacio para que quede una parte a la izquierda y otra parte a la derecha ajustando el "margin"*/
     margin: 0 auto;
     /* ahora el margen se divide en dos partes iguales, el cero indica que arriba no tiene, y el auto indica que a la derecha y izquierda sera auto, segun el ancho de la pagina*/
-    color: rgb(7, 7, 56);
-    background-color: rgb(87, 164, 206);
     border-radius: 5px;
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    animation: glowing-animation 1s infinite;
+    /*para dar animacion, trabaja con lo que esta arriba el: @keyframes glowing-animation */
+    box-shadow: 0px 0px 10px 2px rgba(214, 225, 11, 0.7);
+    /*para darle la sombra al boton*/
+    cursor: pointer;
+    /*para que cambie el puntero al pasar sobre el boton*/
+}
+
+/*para que surgan estos cambios cada vez que se pone el puntero en el boton*/
+.quoteBox__btn:hover {
+    box-shadow: 0px 0px 40px 10px rgba(192, 212, 12, 0.7);
+    background-color: #eaff00;
+    color: rgb(30, 28, 28);
 }
