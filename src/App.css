@@ -48,3 +48,18 @@
   padding: 0 10px;
 
 }
+
+.app__h1 {
+  color: rgb(244, 244, 248);
+  background-color: rgb(237, 44, 176);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.app__footer {
+  color: rgb(244, 244, 248);
+  background-color: rgb(154, 61, 235);
+  border-radius: 5px;
+  padding: 10px;
+}
