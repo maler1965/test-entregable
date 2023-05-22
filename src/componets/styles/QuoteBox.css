@@ -1,0 +1,16 @@
+p {
+    color: rgb(244, 244, 248);
+    background-color: rgb(144, 44, 237);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.quoteBox__btn {
+    display: block;
+    /*con esto surgen un margen grande pues ocupa toda la pagina, el bloque, y se puede dividir ese espacio para que quede una parte a la izquierda y otra parte a la derecha ajustando el "margin"*/
+    margin: 0 auto;
+    /* ahora el margen se divide en dos partes iguales, el cero indica que arriba no tiene, y el auto indica que a la derecha y izquierda sera auto, segun el ancho de la pagina*/
+    color: rgb(7, 7, 56);
+    background-color: rgb(87, 164, 206);
+    border-radius: 5px;
+}

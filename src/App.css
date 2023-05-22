@@ -1,0 +1,50 @@
+.app {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-items: center;
+}
+
+.app.bg1 {
+  background-image: url(/images/bg1.jpg);
+}
+
+.app.bg4 {
+  background-image: url(/images/bg4.jpg);
+}
+
+.app.bg5 {
+  background-image: url(/images/bg5.jpg);
+}
+
+.app.bg7 {
+  background-image: url(/images/bg7.jpg);
+}
+
+.app.bg8 {
+  background-image: url(/images/bg8.jpg);
+}
+
+.app.bg9 {
+  background-image: url(/images/bg9.jpg);
+}
+
+.app.bg10 {
+  background-image: url(/images/bg10.jpg);
+}
+
+
+
+.app__container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* en este contenedor hay tres secciones, con grid-template-rows se los alinea en el centro, y con auto el de arriba y el de abajo la caja se ajusta al tamano de la letra, segun cuantas letras tenga, pero con 1fr la caja del centro ocupa todo el espacio que resta*/
+  align-items: center;
+  width: min(100%, 300px);
+  /* es un reeplazo del media cory, para la adaptacion de diferentes pantallas, gana lo que es mas pequeno, cuando la pagina es muy ancha gana 300, y si es menor de 300px la pantalla, ahora el 100% es el mas pequeno que 300,// el ancho de la seccion del centro se queda con un minimo de 300px cuando la pagina es mas ancha y cuando se achica se aplica el 100% es decir ocupa todo el ancho. */
+  justify-items: center;
+  /*las cosas que estan dentro de la seccion se centran,execto el boton porque esta dentro de otra caja y nececita ser centrada manualmente*/
+  padding: 0 10px;
+
+}
