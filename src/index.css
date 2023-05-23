@@ -23,5 +23,8 @@ h6 {
 
 img {
   max-width: 100%;
+}
 
+.App {
+  font-family: Arial, sans-serif;
 }

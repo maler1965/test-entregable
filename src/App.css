@@ -6,32 +6,20 @@
   justify-items: center;
 }
 
-.app.bg1 {
-  background-image: url(/images/bg1.jpg);
+.app.bg2 {
+  background-image: url(/images/bg2.jpg);
 }
 
-.app.bg4 {
-  background-image: url(/images/bg4.jpg);
+.app.bg3 {
+  background-image: url(/images/bg3.jpg);
 }
 
-.app.bg5 {
-  background-image: url(/images/bg5.jpg);
+.app.bg6 {
+  background-image: url(/images/bg6.jpg);
 }
 
-.app.bg7 {
-  background-image: url(/images/bg7.jpg);
-}
-
-.app.bg8 {
-  background-image: url(/images/bg8.jpg);
-}
-
-.app.bg9 {
-  background-image: url(/images/bg9.jpg);
-}
-
-.app.bg10 {
-  background-image: url(/images/bg10.jpg);
+.app.bg11 {
+  background-image: url(/images/bg11.jpg);
 }
 
 
@@ -50,16 +38,18 @@
 }
 
 .app__h1 {
-  color: rgb(244, 244, 248);
-  background-color: rgb(237, 44, 176);
+  color: rgb(54, 54, 57);
+  background-color: rgb(179, 156, 199);
   border-radius: 5px;
   padding: 10px;
+  margin: 10px;
 }
 
 
 .app__footer {
-  color: rgb(244, 244, 248);
-  background-color: rgb(154, 61, 235);
+  color: rgb(54, 54, 57);
+  background-color: rgb(179, 156, 199);
   border-radius: 5px;
   padding: 10px;
+  margin: 10px;
 }

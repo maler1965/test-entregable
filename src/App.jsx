@@ -7,7 +7,7 @@ import { getRandom } from './util/random'; //para utilizar el archivo random.js
 import { useState } from 'react'; //para usar los estados
 
 
-const bgImages = ["bg1", "bg4", "bg5", "bg7", "bg8", "bg9", "bg10"]
+const bgImages = ["bg2", "bg3", "bg6", "bg11"]
 
 function App() {
   const [quote, setQuote] = useState(getRandom(dbQuotes)) //este estado llama la funcion getRandom enviandole como parametro todo el array de la base de dato, y recibe como return solo un elemento del array de la base de datos
